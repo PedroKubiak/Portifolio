@@ -49,7 +49,11 @@ img {
 }
 .contatos .instagram {
     background-color: #2ca6bc;
-    border-radius: 10px;
+    border-radius: 10px
+}
+.contatos .telefone {
+    background-color: #2ca6bc;
+    border-radius: 10px
 }
 footer{
     background-color: #008197;
