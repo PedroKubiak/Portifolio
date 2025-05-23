@@ -36,9 +36,11 @@ img {
     text-decoration: none;
     background-color: white;
 }
-.menu ul a:hover{
+.menu ul li a:hover {
     background-color: grey;
     padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
 }
 .sobre, .habilidades, .projetos, .contatos {
     background-color: #008197;
@@ -49,11 +51,15 @@ img {
 }
 .contatos .instagram {
     background-color: #2ca6bc;
-    border-radius: 10px
+    border-radius: 5px;
+    border: 3px solid white;
+    margin: 5px;
 }
 .contatos .telefone {
     background-color: #2ca6bc;
-    border-radius: 10px
+    border-radius: 5px;
+    border: 3px solid white;
+    margin: 5px;
 }
 footer{
     background-color: #008197;
