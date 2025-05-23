@@ -1,66 +1,61 @@
-html{
-    background-color: rgb(240, 255, 255);
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2ca6bc;
+}
+.cabecalho {
     color: white;
-   font-family: Arial, Helvetica, sans-serif;
-    font-variant: normal;
-    margin: auto;
-    padding: auto;
-    text-align: justify;
-}
-header{
-    background-color:#008197;
-    size-adjust: auto;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 15px;
-    text-align: center;
-}
-#navegacao ul{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: #1693aa;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 15px;
-}
-#navegacao ul li{
-    margin: auto;
-    list-style: none;
-}
-#navegacao ul li a{
-    font-weight: bolder;
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 15px;
-}
-#navegacao ul li a:hover{
     background-color: #008197;
-    color: aliceblue;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 15px;
-}
-#secao1{
-    background-color: #1693aa;
-    size-adjust: auto;
     margin: 10px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 5px solid white;
+    background-color: white;
+}
+.menu {
+    background-color: #008197;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
     padding: 10px;
-    border-radius: 15px;
-
 }
-#secao1 p {
-    text-align: right;
+.menu ul a {
+    text-decoration: none;
+    background-color: white;
 }
-#secao1 img {
-    width:300px;
+.menu ul a:hover{
+    background-color: grey;
+    padding: 10px;
+}
+.sobre, .habilidades, .projetos, .contatos {
+    background-color: #008197;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contatos .instagram {
+    background-color: #2ca6bc;
+    border-radius: 10px;
 }
 footer{
-    background-color: black;
-    size-adjust: auto;
-    margin: 20px;
-    padding: 5px;
-    border-radius: 15px;
-    text-align: center;
+    background-color: #008197;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
 }
+
