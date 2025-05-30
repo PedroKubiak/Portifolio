@@ -60,22 +60,22 @@ img:hover {
 .contatos{
     background-color: #008197;
 }
-#instagram, #github {
+#instagram, #github, #email, #telefone{
     background-color: #2ca6bc;
     border: 3px solid white;
     margin: 5px;
 }
-#instagram ul, #github ul {
+#instagram ul, #github ul, #email ul,  #telefone ul{
     list-style: none;
 }
-#instagram ul a, #github ul a{
+#instagram ul a, #github ul a, #email ul a,  #telefone ul a{
     text-decoration: none;
     color: white;
 }
-#instagram ul li a:hover, #github ul li a:hover {
-    background-color: #2ca6bc;
+#instagram ul li a:hover, #github ul li a:hover, #email ul li a:hover, #telefone ul li a:hover{
+    background-color: #008197;
     color: white;
-    border-radius: 10px;
+    border-radius: 2px; 
 }
 footer{
     background-color: #008197;
