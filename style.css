@@ -57,18 +57,26 @@ img:hover {
     padding: 15px;
     border-radius: 10px;
 }
-.contatos .instagram, .github {
-    background-color: #b4b4b4;
-    border-radius: 5px;
+.contatos{
+    background-color: #008197;
+}
+#instagram, #github {
+    background-color: #2ca6bc;
     border: 3px solid white;
     margin: 5px;
+}
+#instagram ul, #github ul {
+    list-style: none;
+}
+#instagram ul a, #github ul a{
+    text-decoration: none;
     color: white;
 }
-.contatos .github, .instagram ul li a:hover{
-    background-color: #4b13bb;
+#instagram ul li a:hover, #github ul li a:hover {
+    background-color: #2ca6bc;
     color: white;
+    border-radius: 10px;
 }
-
 footer{
     background-color: #008197;
     color: white;
