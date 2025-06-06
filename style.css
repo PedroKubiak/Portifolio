@@ -1,31 +1,31 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #2ca6bc;
+    background-color:#192d2a ;
 }
 .cabecalho {
     color: white;
-    background-color: #008197;
+    background-color: #0a1e1b;
     margin: 10px;
     padding: 15px;
     text-align: center;
     border-radius: 10px;
 }
-img {
+#fotodoperfil{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    border: 5px solid white;
+    border: 5px solid #455a57;
     background-color: white;
 }
-img {
+#fotodoperfil {
     transition: 0.3s ease;       
     }
-img:hover {
+#fotodoperfil:hover {
     
     transform:scale(1.1);
 }
 .menu {
-    background-color: #008197;
+    background-color: #0a1e1b;
     color: white;
     margin: 10px;
     padding: 15px;
@@ -46,39 +46,55 @@ img:hover {
     color: white;
 }
 .menu ul a:hover {
-    background-color: #2ca6bc;
+    background-color: #0a1e1b;
     color: white;
     border-radius: 10px;
 }
 .sobre, .habilidades, .projetos, .contatos {
-    background-color: #008197;
+    background-color: #0a1e1b;
     color: white;
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
 }
 .contatos{
-    background-color: #008197;
+    background-color: #0a1e1b;
 }
 #instagram, #github, #email, #telefone{
-    background-color: #2ca6bc;
-    border: 3px solid white;
+    background-color: #283c39;
+    border: 3px solid #455a57;
     margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
 }
-#instagram ul, #github ul, #email ul,  #telefone ul{
-    list-style: none;
-}
-#instagram ul a, #github ul a, #email ul a,  #telefone ul a{
+#instagram a, #github a, #email a, #telefone a{
     text-decoration: none;
     color: white;
 }
-#instagram ul li a:hover, #github ul li a:hover, #email ul li a:hover, #telefone ul li a:hover{
-    background-color: #008197;
+#instagram a:hover, #github a:hover, #email a:hover, #telefone a:hover{
+    background-color: #192d2a;
     color: white;
     border-radius: 2px; 
 }
+#logoinstagram{
+    width: 20px;
+    height: 20px;
+}
+#logogithub{
+    width: 20px;
+    height: 20px;
+}#logoemail{
+    width: 20px;
+    height: 20px;
+}
+#logotelefone{
+    width: 20px;
+    height: 20px;
+}
 footer{
-    background-color: #008197;
+    background-color: #0a1e1b;
     color: white;
     padding: 15px;
     margin: 10px;
