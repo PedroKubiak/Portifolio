@@ -19,7 +19,7 @@ body {
 }
 #fotodoperfil {
     transition: 0.3s ease;       
-    }
+}
 #fotodoperfil:hover {
     
     transform:scale(1.1);
