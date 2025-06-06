@@ -57,6 +57,13 @@ body {
     padding: 15px;
     border-radius: 10px;
 }
+.projetos div{
+    background-color:#192d2a ;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
 .contatos{
     background-color: #0a1e1b;
 }
